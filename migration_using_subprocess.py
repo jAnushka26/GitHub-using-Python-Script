@@ -70,7 +70,7 @@ def migrate_repositories(source_pat, target_pat, repo_list_file, work_dir):
         # Push to target repo
         subprocess.run(["git", "--git-dir", local_path, "push", "--mirror", target_url])
 
-        print(f"✅ Migration done for: {source_repo}")
+        print(f"Migration done for: {source_repo}")
 
 def main():
     parser = argparse.ArgumentParser(description="Migrate GitHub repos from one org to another.")
