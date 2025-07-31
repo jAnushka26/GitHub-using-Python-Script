@@ -1,0 +1,2 @@
+target-demo-org/reponame1::source-demo-org/reponame1
+target-demo-org/private-repo::source-demo-org/private-repo
